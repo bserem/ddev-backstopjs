@@ -7,7 +7,7 @@
 ## Example: "ddev backstop-results"
 
 case $OSTYPE in
-  linux-gnu)
+  "linux-gnu")
     xdg-open tests/backstop/backstop_data/html_report/index.html
     ;;
   "darwin"*)
